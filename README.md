@@ -30,7 +30,7 @@ things that you may not understand/don't know about the Bot" - Sam J***
 
 - To use this repository correctly, please refer to the below article to get it setup and working
 
-[Repository Setup](https://github.com/samjesus8/CSharp-Discord-Bot-Template/blob/master/docs/repository_setup.md)
+[Repository Setup](https://github.com/samjesus8/CSharp-Discord-Bot-Template-NET7.0/blob/master/Docs/repository_setup.md)
 
 # :warning: Help & Support
 

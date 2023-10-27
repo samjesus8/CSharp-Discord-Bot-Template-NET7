@@ -1,45 +1,45 @@
-﻿# Setting up & Using this Template
+﻿# Setting up & using this Template
 
-This article will teach you how to use this Template and get your own Discord Bot setup & working.
+This article will teach you how to use this Template and create your Discord Bot in a matter of seconds
 
 ## Step 1 - Creating your Bot
 
-The first thing you need to do is go to the [Discord Developer Portal](https://discord.com/developers/applications) and create an application
+- The first thing you need to do is go to the [Discord Developer Portal](https://discord.com/developers/applications) and create an application
 
 ![image](https://media.discordapp.net/attachments/1020110665161113610/1118917278357004399/image.png?width=1202&height=676)
 
-Create a new Application and Create a new Bot in this Application
+- Create a new Application and a new Bot in this Application
 
 ![image](https://media.discordapp.net/attachments/1020110665161113610/1118917495580000316/image.png?width=1440&height=401)
 
-Enable all the three Prescence Intents in the Bot
+- Enable all three presence Intents in the Bot. This is an essential step as the code has been set to detect all 3 intents
 
 ![image](https://media.discordapp.net/attachments/1020110665161113610/1118917495840067604/image.png)
 
 ## Step 2 - Creating a new Repository from this Template
 
-It is now time to clone this template into a new repository. DO NOT Clone this repository because all that is doing is creating
-a clone of this template which you cannot commit changes to
+It is now time to clone this template into a new repository. DO NOT CLONE this repository because all that is doing is creating
+a clone of this template which you cannot commit changes to. You must create a new repo by using this template.
 
-Click on the "Use this Template" button and create a new repository
+- Click on the "Use this Template" button and create a new repository
 
 ![image](https://media.discordapp.net/attachments/1020110665161113610/1118918225871257680/image.png)
 
-Assign yourself as the owner and give your repository a name and description. You can choose to make it Public/Private if you want
+- Assign yourself as the owner and give your repository a name and description. You can choose to make it Public/Private if you want
 
 ![image](https://media.discordapp.net/attachments/1020110665161113610/1118918226202599586/image.png)
 
-Once this is done, you should have a new Repository that looks just like the template, as shown in this example
+- Once this is done, you should have a new Repository that looks just like the template, as shown in this example
 
 ![image](https://media.discordapp.net/attachments/1020110665161113610/1118919492567826493/image.png?width=1130&height=676)
 
 ## Step 3 - Cloning in VS2022
 
-Once you have created your repository, you can now clone it in VS2022 or any preferred IDE in order to start coding in it
+- Once you have created your repository, you can now clone it in VS2022 or any preferred IDE in order to start coding in it
 
 ![image](https://media.discordapp.net/attachments/1020110665161113610/1118920037936398396/image.png)
 
-In the Solution Explorer you should have your whole project fully loaded
+- In the Solution Explorer, you should have your whole project fully loaded
 
 ![image](https://media.discordapp.net/attachments/1020110665161113610/1118920312759783485/image.png)
 
@@ -53,7 +53,7 @@ Once you have cloned the repository, it is not ready to start just yet. We have 
 ### Restoring the NuGet Packages
 
 This Discord Bot uses a package library called DSharpPlus, and after you clone a repository, the packages don't load in.
-So we need to **Build** the project in order to load these packages in
+So we need to **build** the project in order to load these packages in
 
 ![image](https://media.discordapp.net/attachments/1020110665161113610/1084643410834640916/image.png?width=568&height=402)
 
